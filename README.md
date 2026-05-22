@@ -93,7 +93,7 @@ Dùng **Cloudflare Tunnel** để tạo link công khai `https://....trycloudfla
 |----------|------|
 | 1 | Backend: `python app.py` |
 | 2 | Frontend: `npm run dev` |
-| 3 | Tunnel: `npm run tunnel:cf` |
+| 3 | Tunnel: `npm run tunnel` |
 
 Terminal 3 in link dạng:
 
@@ -145,7 +145,7 @@ Header xác thực: `Authorization: Bearer <token>`
 
 ```bash
 npm run dev      # Dev server (local + proxy API)
-npm run tunnel:cf   # Cloudflare Tunnel — chia sẻ ra internet
+npm run tunnel   # Cloudflare Tunnel — chia sẻ ra internet
 npm run build    # Build production
 ```
 
